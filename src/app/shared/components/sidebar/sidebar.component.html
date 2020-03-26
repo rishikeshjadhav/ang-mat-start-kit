@@ -1,0 +1,51 @@
+<div class="logo">
+    <a class="simple-text logo-mini">
+        <div class="logo-img">
+            <img src="../../../../assets/images/angular2-logo-white.png">
+        </div>
+    </a>
+    <a class="simple-text logo-normal"> Angular Starter </a>
+</div>
+<div class="sidebar-wrapper">
+    <ul class="nav navbar-nav nav-mobile-menu">
+        <li class="nav-item" dropdown>
+            <a id="button-basic" dropdownToggle class="nav-link" aria-controls="dropdown-basic">
+                <i class="material-icons">person</i>
+                <p>
+                    <span>
+                        <span>John Doe</span>
+                        <b class="caret"></b>
+                    </span>
+                </p>
+            </a>
+            <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+                <li role="menuitem">
+                    <a class="dropdown-item">
+                        <mat-icon>account_circle</mat-icon>&nbsp;
+                        <span>Account profile </span>
+                    </a>
+                </li>
+                <li role="menuitem">
+                    <a class="dropdown-item">
+                        <mat-icon>security</mat-icon> &nbsp; <span>Change password</span>
+                    </a>
+                </li>
+                <li role="menuitem" (click)="logout()">
+                    <a class="dropdown-item">
+                        <mat-icon>lock</mat-icon> &nbsp; <span>Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="nav">
+        <li routerLinkActive="" *ngFor="let menuItem of menuItems"
+            class="{{ menuItem.className }} nav-item {{ menuItem.className }}">
+            <a class="nav-link" [routerLink]="menuItem.routePath">
+                <i class="material-icons">{{ menuItem.iconName }}</i>
+                <span *ngIf="menuItem.hasBadge" class="side-bar-badges-menu">5</span>
+                <p class="">{{ menuItem.routeTitle }}</p>
+            </a>
+        </li>
+    </ul>
+</div>

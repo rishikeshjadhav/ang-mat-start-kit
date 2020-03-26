@@ -4,9 +4,10 @@ import { materialImports } from './material-imports';
 import { FormsModule } from '@angular/forms';
 import { SharedRoutingModule } from './shared-routing.module';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
-  declarations: [NavigationComponent],
+  declarations: [NavigationComponent, SidebarComponent],
   imports: [
     CommonModule,
     FormsModule,
