@@ -120,7 +120,7 @@ export class NavBarComponent implements OnInit {
   }
 
   getTitle() {
-    return 'Dashboard';
+    return 'Home';
   }
 
   logout() {

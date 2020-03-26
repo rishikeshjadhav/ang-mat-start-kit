@@ -11,17 +11,19 @@ export class SidebarComponent implements OnInit {
   menuItems: SideNavMenuItem[] = [
     {
       routePath: '',
-      routeTitle: 'Dashboard',
-      iconName: 'dashboard',
+      routeTitle: 'Home',
+      iconName: 'home',
       className: '',
       canSkip: false,
+      hasBadge: false
     },
     {
       routePath: '',
       routeTitle: 'Components',
       iconName: 'apps',
       className: '',
-      canSkip: true,
+      canSkip: false,
+      hasBadge: true
     },
     {
       routePath: '',
@@ -29,6 +31,7 @@ export class SidebarComponent implements OnInit {
       iconName: 'content_paste',
       className: '',
       canSkip: false,
+      hasBadge: false
     },
     {
       routePath: '',
@@ -36,6 +39,7 @@ export class SidebarComponent implements OnInit {
       iconName: 'grid_on',
       className: '',
       canSkip: false,
+      hasBadge: false
     }
   ];
 

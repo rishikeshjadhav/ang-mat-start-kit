@@ -505,3 +505,19 @@ input:-webkit-autofill:active {
 .padding-top-10 {
   padding-top: 15px;
 }
+
+.side-bar-badges-menu {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: $brand-danger;
+  color: #fff;
+  margin-left: 0;
+  top: 7px;
+  font-size: 11px;
+  left: 25px;
+  position: absolute;
+  padding: 0;
+  text-align: center;
+  line-height: 21px;
+}

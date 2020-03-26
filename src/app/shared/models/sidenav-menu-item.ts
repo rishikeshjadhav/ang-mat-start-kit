@@ -4,4 +4,5 @@ export class SideNavMenuItem {
     iconName: string;
     className: string;
     canSkip: boolean;
+    hasBadge: boolean;
 }
