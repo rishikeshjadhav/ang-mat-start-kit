@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SideNavMenuItem } from '../../models/sidenav-menu-item';
+import { ConstantsService } from '../../services/constants.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,6 +8,8 @@ import { SideNavMenuItem } from '../../models/sidenav-menu-item';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
+
+  title: string;
 
   menuItems: SideNavMenuItem[] = [
     {
@@ -43,7 +46,9 @@ export class SidebarComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private constantsService: ConstantsService) {
+    this.title = constantsService.APPTITLE;
+  }
 
   ngOnInit() {
   }
