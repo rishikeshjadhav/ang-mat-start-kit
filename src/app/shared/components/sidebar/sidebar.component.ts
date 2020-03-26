@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SideNavMenu } from '../../models/sidenav-menu';
+import { SideNavMenuItem } from '../../models/sidenav-menu-item';
 
 @Component({
   selector: 'app-sidebar',
@@ -8,7 +8,7 @@ import { SideNavMenu } from '../../models/sidenav-menu';
 })
 export class SidebarComponent implements OnInit {
 
-  menuItems: SideNavMenu[] = [
+  menuItems: SideNavMenuItem[] = [
     {
       routePath: '',
       routeTitle: 'Dashboard',

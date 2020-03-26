@@ -1,4 +1,4 @@
-export class SideNavMenu {
+export class SideNavMenuItem {
     routePath: string;
     routeTitle: string;
     iconName: string;
