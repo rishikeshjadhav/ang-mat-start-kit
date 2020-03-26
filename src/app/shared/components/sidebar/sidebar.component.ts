@@ -13,7 +13,7 @@ export class SidebarComponent implements OnInit {
       routePath: '',
       routeTitle: 'Home',
       iconName: 'home',
-      className: '',
+      className: 'active',
       canSkip: false,
       hasBadge: false
     },

@@ -39,8 +39,7 @@
         </li>
     </ul>
     <ul class="nav">
-        <li routerLinkActive="" *ngFor="let menuItem of menuItems"
-            class="{{ menuItem.className }} nav-item {{ menuItem.className }}">
+        <li routerLinkActive="" *ngFor="let menuItem of menuItems" class="{{ menuItem.className }} nav-item">
             <a class="nav-link" [routerLink]="menuItem.routePath">
                 <i class="material-icons">{{ menuItem.iconName }}</i>
                 <span *ngIf="menuItem.hasBadge" class="side-bar-badges-menu">5</span>
