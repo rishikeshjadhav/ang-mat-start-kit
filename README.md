@@ -4,13 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This kit can be used as a starter pack for Angular and Material projects.
 
-## Versions
-
-1. Angular 8.2.3
-2. Angular Material 8.2.3
-3. Bootstrap 4.3.1
-4. Husky 2.2
-
 ## Features
 
 1. Built with Angular and Material components
@@ -29,6 +22,13 @@ This kit can be used as a starter pack for Angular and Material projects.
 5. Support for having dynamic configurations based on multiple environments in CI/CD pipelines
 6. Change the material theme with minimum updates to stylesheets
 7. Prebuilt support for Husky hooks for commits and push scenarios which prevents bad git commits and push
+
+## Versions
+
+1. Angular 8.2.3
+2. Angular Material 8.2.3
+3. Bootstrap 4.3.1
+4. Husky 2.2
 
 ## Development server
 
