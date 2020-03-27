@@ -23,12 +23,12 @@ This kit can be used as a starter pack for Angular and Material projects.
 ## Benefits
 
 1. Reduce your initial project setup time by `80%`
-2. Ready available imports for all material components, no need to import the components explicitly into your modules
+2. Readily available imports for all material components, no need to import the components explicitly into your modules
 3. Created based on proven standards and learnings working on different projects
 4. Ready to integrate with any backend API via data service implementation
 5. Support for having dynamic configurations based on multiple environments in CI/CD pipelines
 6. Change the material theme with minimum updates to stylesheets
-7. Prebuilt support for Husky hooks for commit and push scenarios which prevents bad git commits and push
+7. Prebuilt support for Husky hooks for commits and push scenarios which prevents bad git commits and push
 
 ## Development server
 
