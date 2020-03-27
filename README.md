@@ -2,6 +2,34 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
+This kit can be used as a starter pack for Angular and Material projects.
+
+## Versions
+
+1. Angular 8.2.3
+2. Angular Material 8.2.3
+3. Bootstrap 4.3.1
+4. Husky 2.2
+
+## Features
+
+1. Built with Angular and Material components
+2. Contains configurable inbuilt material theme
+3. Husky git hooks support
+4. Shared module support
+5. Dynamic configuration support for CI/CD pipelines
+6. Shared services approach for authentication, API calls and project constants
+
+## Benefits
+
+1. Reduce your initial project setup time by <span style="font-size:2em; margin-left: 5px;">80%</span>
+2. Ready available imports for all material components, no need to import the components explicitly into your modules
+3. Created based on proven standards and learnings working on different projects
+4. Ready to integrate with any backend API via data service implementation
+5. Support for having dynamic configurations based on multiple environments in CI/CD pipelines
+6. Change the material theme with minimum updates to stylesheets
+7. Prebuilt support for Husky hooks for commit and push scenarios which prevents bad git commits and push
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
