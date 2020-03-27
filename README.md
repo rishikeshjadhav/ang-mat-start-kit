@@ -22,7 +22,7 @@ This kit can be used as a starter pack for Angular and Material projects.
 
 ## Benefits
 
-1. Reduce your initial project setup time by <span style="font-size:2em; margin-left: 5px;">80%</span>
+1. Reduce your initial project setup time by `80%`
 2. Ready available imports for all material components, no need to import the components explicitly into your modules
 3. Created based on proven standards and learnings working on different projects
 4. Ready to integrate with any backend API via data service implementation
